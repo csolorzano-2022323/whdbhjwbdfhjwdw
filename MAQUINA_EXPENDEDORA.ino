@@ -283,15 +283,11 @@ void ejecutarMotor(void) { //Funcion para realizar los movimientos Stepper.
     } }
 
   else if (SELECMOTOR == 3) {  
-      for (pos = 0; pos <= 10; pos += 1){
-        
-      }
+    delay(4500);
   }
 
   else if (SELECMOTOR == 4) {  
-      for (pos = 0; pos <= 10; pos += 1){
-        
-      }
+     delay(4500);
   }
     
 
