@@ -230,7 +230,7 @@ void ejecutarMotor(void) { //Funcion para realizar los movimientos Stepper.
 
 
   else if (SELECMOTOR == 2) {  
-  for (pos = 0; pos <= 10; pos += 1){
+  for (pos = 0; pos <= 1000; pos += 1){
 
    digitalWrite(8, HIGH); //PASO 1
   digitalWrite(9, LOW);
